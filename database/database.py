@@ -2,6 +2,7 @@ from sqlalchemy import create_engine
 from database.base import Base
 from sqlalchemy.orm import sessionmaker
 from models.usuario import Usuario
+from models.produtos import Produto
 from dotenv import load_dotenv
 import os
 load_dotenv()
